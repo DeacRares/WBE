@@ -1,0 +1,22 @@
+           nr 1 : sword - elo : 1119 - record : 10-4
+
+           nr 2 : shuriken - elo : 1078 - record : 5-2
+
+           nr 3 : unarmed - elo : 1061 - record : 5-3
+
+           nr 4 : scythe - elo : 1061 - record : 7-5
+
+           nr 5 : spear - elo : 1012 - record : 7-7
+
+           nr 6 : wrench - elo : 1010 - record : 4-4
+
+           nr 7 : shield - elo : 980 - record : 3-4
+
+           nr 8 : dagger - elo : 953 - record : 5-6
+
+           nr 9 : hammer - elo : 931 - record : 2-5
+
+           nr 10 : bow - elo : 898 - record : 2-6
+
+           nr 11 : staff - elo : 897 - record : 1-5
+

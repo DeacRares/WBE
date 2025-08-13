@@ -1,0 +1,12 @@
+#title{
+    align-self: center;
+    text-align: center;
+    font-size: 100px;
+}
+hr{
+    height: 1px;
+    background-color: black;
+}
+pre{
+    font-size: 2em;
+}
