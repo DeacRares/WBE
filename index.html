@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href = "stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WBER</title>
+    <script>
+        fetch('./rank.txt')
+        .then(res => res.text())
+        .then(text => {
+            console.log("File loaded!");
+            console.log(text);
+            document.getElementById('intro').textContent += "\n\n" + text;
+        })
+        .catch(err => console.error(err));
+    </script>
+</head>
+<body>
+    <h1 id = "title">Weapon Balls ELO Rankings</h1>
+    <hr>
+    <pre id = "intro">
+        Weapon balls elo rankings (WBER), is a NPO that is ranks every weaponball in <a href ="https://www.youtube.com/@Earclacks/featured" title = "Go to earclacks youtube chanel" target = "_blank">Earclack's</a> famous "Weapon Balls" series,
+    using an <a href = 'engine code.html'>elo engine</a> to determine who is the best weapon ball. Those rankings only count 1v1s happening during the regular
+    season the season end tournament, and doesnt count free for all, team events and block breaker.
+    *note : In best of 3 matches I count each individula game so if a weaponball won 2-1 I count it as 2 wins and 1 loss 
+
+        The rankings are updated every new upload, (last updated 8/9/2025), the current rankings are:
+    </pre>
+</body>
+</html>
